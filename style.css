@@ -1,0 +1,390 @@
+*{
+	margin:0;
+	padding:0;
+	font-family:sans-serif;
+	
+}
+
+#header
+{
+	height:100vh;
+	background-image:url(image/background.png);
+	background-position:center;
+	background-size:cover;
+	background-color:#31183b ;
+    
+}
+.container
+{
+	margin-right:100px;
+	margin-left:100px;
+	
+}
+.logo
+{
+	margin-top:30px;
+	width:150px;
+}
+.header-text
+{
+	max-width:500px;
+	margin-top:20px;
+	
+}
+.header-h1-text
+{   color: #f6700a;
+	font-size:150px;
+	font-family:Monotype Corsiva;
+}
+
+h6
+{   
+	font-size:90px;
+	font-family:Monotype Corsiva;
+	color: #891e5b;
+	padding-left:150px;
+}
+/*------- style of arts css here----*/
+.square
+{
+	height:12px;
+	width:12px;
+	display:inline-block;
+	background:#f6700a;
+	margin:15px 0;
+}
+.square-1
+{
+	height:12px;
+	width:50px;
+	display:inline-block;
+	background:#f6700a;
+	margin:15px 0;
+}
+/*----butns----*/
+.common-btn
+{
+	padding:18px 40px;
+	background:white;
+	outline:none;
+	border:2px solid #005e20;
+	font-weight:bold;
+	cursor:pointer;
+	overflow: hidden;
+	border-radius: 50px;
+	
+}
+.common-btn:hover
+{
+   background-color:#ffebd9;
+   box-shadow: 0 0 25px #f6700a;
+}
+p
+{
+	font-size:15px;
+	line-height:18px;
+	color:#777;
+}
+.header-text button
+{
+	margin-top:20px;
+	margin-bottom:60px;
+	
+}
+.line-1
+{
+	width:15px;
+	height:15px;
+	background:#005e20;
+	display:inline-block;
+}
+.line-2
+{
+	width:80px;
+	height:1px;
+	background:#005e20;
+	display:inline-block;
+}
+.line-3
+{
+	width:60px;
+	height:1px;
+	background:#005e20;
+	display:inline-block;
+}
+.line
+{
+	line-height:8px;
+	
+}
+
+
+
+#sidenav
+{
+	width:250px;
+	height:100vh;
+	position:fixed;
+	right:-250px;
+	top:0;
+	background:#31183b;
+	z-index:2;
+	transition: 1s;
+	overflow: hidden;
+	
+}
+nav ul li
+{
+	list-style:none;
+	margin:50px 20px;
+	
+	 
+}
+nav ul li a
+{
+ 	text-decoration:none;
+	color:#fff;
+	display: block;
+	text-decoration: none;
+	padding:10px;
+	
+}
+nav li a:hover
+{
+	background-color:#f6700a;
+	box-shadow: 0 0 25px #f6700a;
+}
+#menubtn
+{
+	width:80px;
+	position:fixed;
+	right:65px;
+	top:35px;
+	z-index:2;
+	cursor:pointer;
+}
+
+/*-------section 2 about vesak ----------*/
+#about
+{
+	padding:100px;
+	display:flex;
+	align-items:center;
+	flex-wrap:wrap;
+	background-color: #31183b;
+	
+}
+.about-left-col
+{
+	flex-basis:50%;
+}
+.about-left-col img
+{
+	width:100%;
+   
+	
+}
+.about-right-col
+{
+	flex-basis:50%;
+	text-align:right;
+}	
+.about-text
+{
+	max-height:500px;
+	margin-right:50px;
+	display:inline-block;
+}
+.about-text h2
+{
+	margin:50px 0 10px;
+	font-size:90px;
+	font-style:italic;
+	font-family:Monotype Corsiva;
+	color: #891e5b;
+	
+}
+p
+{
+	color: #f6700a;
+}
+
+
+/*----features Life Of Buddha---*/
+#features
+{
+	padding-top:50px;
+	padding-bottom:50px;
+	background-color: #31183b;
+}
+.features-row
+{
+	width:80%;
+	margin:auto;
+	display:flex;
+	align-items:center;
+	justify-content:space-around;
+	flex-wrap:wrap;
+}
+.features-cal
+{
+	flex-basis:25%;
+	text-align:center;
+	
+	
+}
+.features-cal img
+{
+	width:300px;
+	
+}
+.features-cal img:hover
+{
+	box-shadow: 0 0 25px #f6700a;
+}
+.features-cal h4
+{
+	margin-bottom:15px;
+	font-size:20px;
+	font-weight:400;
+	color: white;
+}
+.square-features
+{   
+	padding-left: 50%;
+	padding-top: 25px;
+}
+.feater-h2
+{
+	text-align: center;
+	font-size:50px;
+	font-style:italic;
+	font-family:Monotype Corsiva;
+	color: #891e5b;
+}
+
+
+
+/*----View Videos----*/
+
+#Videos
+{
+	padding:100px 0;
+	background-color: #31183b;
+}
+.Videos-row
+{
+	display:flex;
+	align-items:center;
+	flex-wrap:wrap;
+}
+.Videos-right-col
+{
+	flex-basis:50%;	
+}
+.Videos-right-col img
+{
+	width:100%;
+	mix-blend-mode:lighten;
+	
+	
+}
+.Videos-left-col
+{
+	flex-basis:50%;
+}
+.Videos-text
+{
+	max-width:350px;
+	font-size:50px;
+	
+}
+.Videos-text button
+{
+	margin:30px 0;
+}
+.Videos-h2
+{
+	font-style:italic;
+	font-family:Monotype Corsiva;
+	color: #891e5b;
+}
+.square-10
+{
+	height:100px;
+	width:5px;
+	display:inline-block;
+	background:#f6700a;
+	margin:15px 0;
+}
+.square-11
+{
+	height:80px;
+	width:5px;
+	display:inline-block;
+	background:#f6700a;
+	margin:15px 0;
+}
+.square-12
+{
+	height:50px;
+	width:5px;
+	display:inline-block;
+	background:#f6700a;
+	margin:15px 0;
+}
+/*----footer About Us----*/
+
+#footer
+{
+	padding: 50px 0 30px;
+	background-color:#1f1025;
+}
+hr
+{
+	width: 100%;
+	border: 0;
+	border-top: 2px solid #f6700a;
+}
+.footer-row
+{
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	flex-wrap: wrap;
+}
+.footer-left-col
+{
+	flex-basis: 50%;
+	margin-top: 40px;
+
+}
+.footer-right-col
+{
+	flex-basis: 35%;
+
+}
+.footer-links
+{
+	display: flex;
+	justify-content: space-between;
+	flex-wrap: wrap;
+}
+.link-title h4
+{
+    color: #f6700a;
+	margin-bottom: 20px;
+
+}
+.link-title small
+{
+	font-size: 15px;
+	color: #777;
+}
+.footer-info
+{
+	display: flex;
+	align-items: flex-end;
+	justify-content: space-between;
+	flex-wrap: wrap;
+}
